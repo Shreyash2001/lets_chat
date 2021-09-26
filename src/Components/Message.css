@@ -1,0 +1,43 @@
+.message__own {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    min-width: 60px;
+    position: relative;
+    text-align: right;
+    margin-left: auto;
+    color: #fff;
+    background: #CB356B;
+    background: -webkit-linear-gradient(to right, #BD3F32, #CB356B); 
+    background: linear-gradient(to right, #BD3F32, #CB356B); 
+
+}
+
+.message__other {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+    min-width: 60px;
+    position: relative;
+    text-align: left;
+    color: #fff;
+    background: #C02425; 
+    background: -webkit-linear-gradient(to right, #F0CB35, #C02425);  
+    background: linear-gradient(to right, #F0CB35, #C02425);
+}
+
+.message__main {
+    font-size: 16px;
+}
+
+.message__timestamp {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

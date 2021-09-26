@@ -1,0 +1,11 @@
+.chatcontainer {
+    flex: 0.8;
+    overflow: scroll;
+    height: 100vh;
+    padding-left: 10px;
+}
+
+.chatcontainer::-webkit-scrollbar {
+    display: none;
+}
+

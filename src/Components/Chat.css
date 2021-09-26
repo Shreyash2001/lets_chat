@@ -1,0 +1,15 @@
+.chat {
+    display: flex;
+    align-items: center;
+    cursor: pointer;   
+}
+
+.chat:hover {
+    background-color: #ef473a;
+}
+.chat > p {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #fff;
+    
+}

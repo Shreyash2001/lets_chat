@@ -1,0 +1,100 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    height: 97vh;
+    padding: 20px 0 0 10px;
+    min-width: 300px;
+    max-width: 350px;
+    overflow-y: scroll;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar__upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(68, 68, 68);;
+}
+
+.sidebar__upper > div {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.sidebar__upper > div > span {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.sidebar__button {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(68, 68, 68);
+
+}
+
+.sidebar__button > button {
+    width: 80% !important;
+    font-size: 18px;
+    text-transform: inherit !important;
+    background-color: transparent !important;
+    color: #fff !important;
+    transition: transform 450ms;
+    margin-left: 20px;
+}
+
+.sidebar__button > button:hover{
+    background: #cb2d3e; 
+    background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);
+    background: linear-gradient(to right, #ef473a, #cb2d3e); 
+    color: #fff !important;
+    transform: scale(1.08);
+}
+
+.input__email {
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    outline-width: 0;
+    font-size: 16px;
+    border: 1px solid lightgray;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 22px;
+    margin-left: 20px;
+}
+
+.input__button {
+    width: 100px !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    border-radius: 12px !important;
+    background-color: #ef473a !important;
+    text-transform: inherit !important;
+    margin-left: 120px !important;
+    margin-top: 20px !important;
+}
+
+.input__buttonDisabled {
+    width: 100px !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    border-radius: 12px !important;
+    background-color: gray !important;
+    text-transform: inherit !important;
+    margin-left: 120px !important;
+    margin-top: 20px !important;
+}
